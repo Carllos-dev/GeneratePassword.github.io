@@ -1,0 +1,160 @@
+/* Chrome e outros */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+
+body {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    background-color: #727887;
+    text-align: center;
+}
+
+main {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    text-align: center;
+    border: transparent solid white;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+
+.radios {
+    justify-content: space-evenly;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+.align-self-item {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    width: 300px;
+    gap: 12px;
+    align-items: center;
+}
+.bi {
+    color: #242424;
+    margin: 5px;
+}
+
+.preferencial {
+    width: 100px;
+    border: transparent;
+    border-radius: 5px;
+    background-color: rgb(31, 231, 31);
+    padding: 3.5px;
+    margin-right: 20px;
+}
+
+.normal {
+    width: 100px;
+    border: transparent;
+    border-radius: 5px;
+    background-color: rgb(31, 231, 31);
+    padding: 1px;
+    padding-right: 4.5px;
+}
+
+.btn-outline-secondary {
+    color: black;
+    border: transparent;
+    background-color: rgb(31, 231, 31);
+    position: relative;
+    height: 45px;
+}
+.btn-outline-secondary:hover {
+    background-color: green;
+}
+
+
+.espacoSenha {
+    background-color: rgb(236, 236, 82);
+    margin: auto;
+    margin-top: 3vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: transparent;
+    border-radius: 10px;
+    width: 450px;  
+    height: 275px;
+}
+
+.protocolo {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+
+#protocolo {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    margin-right: 150px;
+    font-weight: 600;
+    font-size: 18px;
+}
+#senha {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 20px;
+    margin-right: 100%;
+    font-weight: 700;
+    font-size: 40px;
+}
+#hora {
+    position: relative;
+    right: 145px;
+    opacity: 0.7;
+    margin-top: 40px;
+}
+#cpf {
+    color: whitesmoke;
+    border: transparent;
+}
+h5 {
+    font-weight: 600;
+    font-size: 18px;
+}
+p {
+    color: black;
+    font-size: 25px;
+    margin-top: 15px;
+}
+#aguarde {
+    color: black;
+    opacity: 0.7;
+    font-size: 1.2rem;
+}
+#carlos {
+    color: white;
+    opacity: 0.6;
+    font-size: 12px;
+}
